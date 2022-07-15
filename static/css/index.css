@@ -139,14 +139,200 @@
 
 /* Articles style start */
 .articles{
-
+    margin-bottom: 50px;
 }
-
+.articles__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+}
+.article-item{
+    box-shadow: 0px 3px 23px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    padding-bottom: 20px;
+    width: 290px;
+}
 .articles__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
-
+.articles__title{
+    width: 156px;
+    height: 50px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #23262D;
+}
+.articles__link{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 30px 15px;
+    gap: 20px;
+    width: 176px;
+    height: 50px;
+    border: 2px solid #E36F59;
+    border-radius: 8px;
+    background: #FFFFFF;
+    text-decoration: none;
+    color: #E36F59;
+    font-family: 'Bitter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.article-item__img{
+    border-radius: 8px 8px 0px 0px;
+    width:100%;
+    height:190px ;
+}
+.articles-tags{
+    margin-top:15px;
+}
+.articles-tags span:first-child{
+    width: 69px;
+    height: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 10px;
+    background: #A2D8FF;
+    border-radius: 2px; width: 49px;
+    height: 14px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #23262D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left:15px;
+    margin-right:5px;
+    }
+.articles-tags span:nth-child(2){
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 10px;
+    background: #FFD4BC;
+    border-radius: 2px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 22px;
+    height: 14px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #23262D;
+    margin-right:5px;
+}
+.articles-tags span:last-child{
+    width: 35px;
+    height:24px;
+    background: #BEC5FF;
+    border-radius: 2px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 10px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #23262D;
+    margin-right:114px;
+}
+.article-item__content{
+    padding: 0 3px;
+    padding-top: 22px;
+    border-bottom: 1px solid #E2E7EB;
+}
+.article-item__content h3{
+    width: 251px;
+    height: 62px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #23262D;
+}
+.article-item__content h3:hover{
+    color: #E36F59;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.article-item__content p{
+    width: 257px;
+    height: 58px;
+    margin-left: 15px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #606268;
+}
+.article-item__info{
+    display: flex;
+    align-items: center;
+}
+.article-item__date img{
+    width: 14px;
+    height: 14px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.article-item__date span{
+    width: 59px;
+    height: 19px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #23262D;
+    margin-left: 10px;
+}
+.article-item__views img{
+    width: 14px;
+    height: 14px;
+    margin-left: 129px;
+    margin-top: 20px;
+}
+.article-item__views span{
+    width: 16px;
+    height: 14px;
+    color: #23262D;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+.articles-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider-left, .slider-right{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.slider-left:hover svg path, .slider-right:hover svg path{
+    fill: #E36F59;
+}
+.slider-left:hover svg line, .slider-right:hover svg line{
+    stroke: #E36F59;
+}
 /* Articles styles end */
