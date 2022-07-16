@@ -635,3 +635,51 @@
 }
 
 /*Form styles end*/
+
+/* Footer styles start */
+.footer{
+    background: #2D3034;
+    padding: 37px 0;
+}
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left, .footer-list{
+    height: 16px;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-item{
+    margin-right: 40px;
+
+}
+.footer__link{
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: 'Bitter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    transition: all .3s ease-in-out;
+}
+.footer__link:hover{
+    color: #E36F59;
+}
+.footer-left{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/* Footer styles end */
